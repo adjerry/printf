@@ -35,7 +35,6 @@ return (write_unsgnd(0, i, buffer, flags, width, precision, size));
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
- * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
  */
