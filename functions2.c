@@ -41,8 +41,9 @@ ind++;
 return (write_pointer(buffer, ind, length,
 width, flags, padd, extra_c, padd_start));
 }
+/************************* PRINT NON PRINTABLE *************************/
 /**
- * print_non_printable - Prints ascii codes in hexa of non printable chars
+ * print_non_printable - Prints ascii codes in hexa of non
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
